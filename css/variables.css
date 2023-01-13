@@ -1,0 +1,30 @@
+:root {
+
+	/* Header font styling */
+	--large-font-family: neue-haas-grotesk-display, sans-serif;
+	--large-font-size: 2rem;
+	--large-font-weight: 700;
+	--large-line-height: 2.4rem;
+
+	/* Body font styling */
+	--primary-font-family: 'Times New Roman', Times, serif;
+	--body-font-size: 1rem;
+
+	/* Body font styling - uppercase */
+	--body-letter-spacing: 0.05rem;
+
+	/* Small font */
+	--small-font-size: 0.5rem;
+
+	/* Small font styling - uppercase text */
+	--small-line-height: 1.66rem;
+	--small-letter-spacing: 0.05rem;
+
+
+	/* Color variables */
+	--primary-color: #000;
+	--secondary-color: #fff;
+	--tertiary-color: #9747FF;
+	--subscribe-color: #E7E7E7;
+
+}
