@@ -21,7 +21,10 @@
 	--small-letter-spacing: 0.05rem;
 
 
-	
-
+	/* Color variables */
+	--primary-color: #000;
+	--secondary-color: #fff;
+	--tertiary-color: #9747FF;
+	--subscribe-color: #E7E7E7;
 
 }
