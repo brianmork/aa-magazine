@@ -1,0 +1,37 @@
+.header__section {
+	margin: 0 auto;
+	text-align: center;
+	grid-column: 1/13;
+}
+
+.header__flex-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__heading {
+	font-family: var(--large-font-family);
+	font-size: var(--large-font-size);
+	font-weight: var(--large-font-weight);
+	line-height: var(--large-line-height);
+}
+
+.header__icons {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.header__logo {
+	width: 23rem;
+}
+
+@media screen and (min-width: 768px) {
+	.header__flex-container {
+		justify-content: center;
+	}
+
+	.header__icons {
+		display: none;
+	}
+}
