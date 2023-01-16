@@ -9,6 +9,6 @@ body {
 	margin: 0.5rem;
 }
 
-p {
+p:not(:first-of-type) {
 	text-indent: 11px;
 }
