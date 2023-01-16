@@ -10,5 +10,5 @@ body {
 }
 
 p:not(:first-of-type) {
-	text-indent: 11px;
+	text-indent: 0.55rem;
 }
