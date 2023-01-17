@@ -3,5 +3,6 @@
 @import '../css/base.css';
 
 @import './fonts.css';
-@import './modules/grid.css';
 @import './modules/header.css';
+@import './modules/grid.css';
+@import './modules/information.css';
