@@ -6,4 +6,6 @@
 @import './modules/header.css';
 
 
-@import './modules/grid.css'
+@import './modules/grid.css';
+
+@import './modules/information.css';
