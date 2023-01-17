@@ -1,0 +1,42 @@
+/* Styling mobile version */
+.information__container {
+	grid-column: 1/13;
+}
+
+.information__image {
+	width: 100%;
+}
+
+.information__headline {
+	margin: 2rem 0 2rem 0;
+}
+
+.information__headline {
+	font-family: var(--large-font-family);
+	font-size: var(--large-font-size);
+	font-weight: var(--large-font-weight);
+	line-height: var(--large-line-height);
+}
+
+.information__article-top {
+	font-family: var(--large-font-family);
+	font-size: var(--large-font-size);
+	font-weight: var(--large-font-weight);
+	line-height: var(--large-line-height);
+}
+
+.information__article-bottom {
+	font-family: var(--primar-font-family);
+	font-size: var(--body-font-size);
+	letter-spacing: var(--body-letter-spacing);
+}
+
+.information__article-top {
+	margin: 2rem 0 2rem 0;
+}
+
+@media screen and (min-width: 480px) {
+	.information__container {
+		grid-column: 4/12;
+	}
+}
