@@ -17,7 +17,7 @@
 .header__icons {
 	display: flex;
 	align-items: center;
-	gap:var(--gap-size);
+	gap: var(--gap-size);
 }
 
 .header__logo {
