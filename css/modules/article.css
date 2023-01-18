@@ -3,7 +3,7 @@
 	color: var(--secondary-color);
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	gap: 0.5rem;
+	gap: var(--gap-size);
 	margin: 0.5rem;
 }
 
