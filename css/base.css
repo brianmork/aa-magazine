@@ -2,13 +2,6 @@ html {
 	font-size: 20px;
 }
 
-body {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	gap: 0.5rem;
-	margin: 0.5rem;
-}
-
 p:not(:first-of-type) {
 	text-indent: 3rem;
 }
