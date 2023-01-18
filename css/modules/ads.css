@@ -1,0 +1,40 @@
+.ad {
+	width: 100%;
+	display: flex;
+	background-color:var(--subscribe-color);
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	
+}
+
+.ad__first-section{
+	display: flex;
+	margin: 0.1rem;
+	width: 100%;
+	background-color:var(--tertiary-color);
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 4/3;
+}
+.ad__filler-text{
+	color:#fff;
+	text-align: center;
+	
+}
+ @media screen and (min-width: 768px){
+	.ad {
+		gap: 0.1rem 0.2rem;
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		background-color: var(--subscribe-color);
+		
+	}
+
+	.ad__first-section {
+		width: 100%;
+		background-color:var(--tertiary-color);
+	}
+
+} 
