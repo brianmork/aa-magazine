@@ -13,7 +13,7 @@ main, header {
 body {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	gap: 0.5rem;
+	gap: var(--gap-size);
 	margin-left: 1rem;
 	margin-right: 0.5rem;
 }
@@ -22,7 +22,7 @@ body {
 	.articles {
 			display: grid;
 			grid-template-columns: repeat(9, 1fr);
-			gap: 0.5rem;
+			gap: var(--gap-size);
 			grid-column: 4/13;
 		}
 

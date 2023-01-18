@@ -26,5 +26,9 @@
 	--secondary-color: #fff;
 	--tertiary-color: #9747FF;
 	--subscribe-color: #E7E7E7;
+	
+	
+	/* gap variables*/
+	--gap-size: 0.5rem;
 
 }
