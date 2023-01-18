@@ -1,6 +1,7 @@
 .navigation__menu-container {
 	width: 23rem;
 	position: relative;
+	display: NONE;
 }
 
 .navigation__mobile-menu {

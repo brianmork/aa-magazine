@@ -5,7 +5,7 @@
 }
 
 .header__flex-container {
-	display: none;
+	display: flex;
 	justify-content: space-between;
 }
 
