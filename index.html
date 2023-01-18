@@ -7,11 +7,12 @@
 
     <link rel="stylesheet" href="./css/style.css">
   </head>
+  
   <body>
 	<button class="button__subscribe">Subscribe <button class="button__close">X</button></button>
 	  <header class="header__section">
 			<img class="header__logo" src="./assets/logo/aa-logo.svg" alt="Arc architectural logo">
-      
+			<nav class="navigation navigation__mobile">
 				<div class="header__flex-container">
 					<h1 class="header__heading">Arc Architectural</h1>
 					<div class="header__icons">
@@ -20,11 +21,26 @@
 						</button>
             
 						<button class="header__burger-menu">
-							<img src="./assets/elements/aa-burger menu.svg" alt="hamburger menu">
+							<img src="./assets/elements/aa-burger menu.svg" alt="Open Menu">
 						</button>
 					</div>
 				</div>
+				<div class="navigation__menu-container">
+					<ul class="navigation__mobile-menu">
+						<li class="navigation__mobile-menu-item"><a href="#">Announcements</a></li>
+						<li class="navigation__mobile-menu-item"><a href="#">Journal</a></li>
+						<li class="navigation__mobile-menu-item"><a href="#">Reviews</a></li>
+						<li class="navigation__mobile-menu-item"><a href="#">Books</a></li>
+						<li class="navigation__mobile-menu-item"><a href="#">Information</a></li>
+						<li class="navigation__mobile-menu-item"><a href="#">Events</a></li>
+					</ul>
+					<button class="navigation__close-icon">
+						<img src="/assets/elements/aa-close_icon.svg" alt="Close Menu">
+					</button>
+				</div>
+			</nav>
 		</header>
+		
 		<main>
 			<section class="articles">
 				<img src="./assets/images/alan-rostovtev-eSKy3o8P_Bw-unsplash.jpg" alt="Close up of a architectural building. Looks like a beehive">
