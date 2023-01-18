@@ -1,0 +1,31 @@
+.body__article {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 0.5rem;
+	margin: 0.5rem;
+}
+
+.article__container {
+	grid-column: 1/13;
+}
+
+.article__container h3 {
+	font-size: var(--body-font-size);
+	font-family: var(--primary-font-family);
+}
+
+.article__container h2 {
+
+}
+
+.article__images {
+	width: 100%;
+
+}
+
+
+
+
+
