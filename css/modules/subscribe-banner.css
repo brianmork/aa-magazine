@@ -1,0 +1,41 @@
+.subscribe-banner{
+	color: var(--primary-color);
+	font-family: var(--large-font-family);
+	font-size: var(--large-font-size);
+	font-weight: var(--large-font-weight);
+	width: 90%;
+	background-color: var(--subscribe-color);
+	display: flex;
+	justify-content: space-between;
+	padding: 0.2rem 1rem;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 0.7rem;
+	left:51%;
+	transform: translateX(-50%);
+	transition: all 0.1s;
+}
+
+.subscribe-banner__span {
+	display: none;
+}
+
+.subscribe-banner:hover {
+	filter: invert();
+}
+
+@media screen and (min-width: 768px) {
+ .main-grid {
+	position: relative;
+ }
+
+ .subscribe-banner__span {
+	display: inline;
+}
+
+ .subscribe-banner {
+	width: 70%;
+	left: 28%;
+	transform: translateX(0);
+ }
+}
