@@ -40,7 +40,7 @@ aside {
 	letter-spacing: var(--body-letter-spacing);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 	aside {
 		display: block;
 	}
