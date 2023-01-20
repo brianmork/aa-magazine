@@ -6,7 +6,6 @@ export default function stickyNavigation() {
 	window.addEventListener('scroll', handleNavbarScroll);
 
 	function handleNavbarScroll() {
-		console.log('hei');
 		if (window.pageYOffset >= sticky) {
 			navbar.classList.add("navigation__mobile-sticky")
 		 } else {
