@@ -27,9 +27,27 @@
 
 @media screen and (min-width: 480px) {
 	.articles__overlay {
-		display: none;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: 0.2s ease;
+		background: #000;
 	}
 
-	
+	.articles__image:hover .articles__overlay {
+		opacity: 1;
+	}
+
+	.overlay-top {
+		width: 100%;
+	}
+
+	.overlay-bottom {
+		width: 50%;
+	}
 
 }
