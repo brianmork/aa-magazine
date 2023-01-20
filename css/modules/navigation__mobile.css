@@ -8,23 +8,24 @@
 }
 
 .navigation__menu-container {
-	width: 23rem;
 	position: relative;
-	display: NONE;
+	display: none;
 }
 
 .navigation__mobile-menu {
 	position: absolute;
-	right: 0;
-	top: 3em;
-	width: 23rem;
-	left: 50%;
-	transform: translateX(-50%);
+	top: 0;
+	padding-top: 2em;
+	width: 100vw;
+	z-index: 5;
+	background-color: var(--secondary-color);
+	height: 100vh;
+
 }
 
 .navigation__mobile-menu-item {
 	list-style: none;
-	text-align: right;
+	text-align: left;
 }
 
 .navigation__mobile-menu-item a {
@@ -35,7 +36,6 @@
 }
 
 .navigation__close-icon {
-	position: absolute;
-	right: 0;
-	top: 0.2em;
+	display: none;
+	margin-right: 0.6em;
 }

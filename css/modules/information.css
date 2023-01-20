@@ -35,7 +35,7 @@
 	margin: 2rem 0 2rem 0;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 992px) {
 	.information__container {
 		grid-column: 4/12;
 	}
