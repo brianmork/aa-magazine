@@ -1,3 +1,12 @@
+.navigation__mobile-sticky {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 4;
+	background-color: var(--secondary-color);
+	padding-right: 1em;
+}
+
 .navigation__menu-container {
 	width: 23rem;
 	position: relative;
