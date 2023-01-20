@@ -2,7 +2,7 @@ main, header {
 	grid-column: 1/13;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 	main {
 		grid-column: 4/13;
 	}
@@ -17,7 +17,7 @@ body {
 	margin: 0.5rem;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
 	.articles {
 			display: grid;
 			grid-template-columns: repeat(9, 1fr);
