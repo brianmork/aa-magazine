@@ -1,18 +1,13 @@
 .navigation__menu-container {
-	/* width: 100vw */
 	position: relative;
 	display: none;
 }
 
 .navigation__mobile-menu {
 	position: absolute;
-	right: 0;
 	top: 0;
 	padding-top: 2em;
-	padding-right: 1em;
 	width: 100vw;
-	left: 50%;
-	transform: translateX(-50%);
 	z-index: 5;
 	background-color: var(--secondary-color);
 	height: 100vh;
@@ -21,7 +16,7 @@
 
 .navigation__mobile-menu-item {
 	list-style: none;
-	text-align: right;
+	text-align: left;
 }
 
 .navigation__mobile-menu-item a {
