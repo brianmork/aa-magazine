@@ -46,6 +46,28 @@
 	filter: invert();
 }
 
+/* Fungerer ikke helt som den skal, kun med .article__container */
+@media screen and (min-width: 768px) {
+	
+	.article__container,
+	.article__image--first {
+		grid-column: 4/13;
+	}
+
+	.article__headline, 
+	.article__image--second,
+	.article__h3 {
+		grid-column: 5/12;
+	}
+
+	.article__paragraphs {
+		grid-column: 5/8;
+	}
+
+
+
+}
+
 
 
 
