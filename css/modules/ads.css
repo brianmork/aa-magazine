@@ -22,7 +22,7 @@
 	text-align: center;
 	
 }
- @media screen and (min-width: 768px){
+ @media screen and (min-width: 992px){
 	.ad {
 		gap: 0.1rem 0.2rem;
 		width: 100%;
