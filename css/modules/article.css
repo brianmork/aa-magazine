@@ -42,6 +42,10 @@
 	text-indent: 0;
 }
 
+.article__paragraphs:last-of-type {
+	margin-bottom: 2rem;
+}
+
 .header__search-icon--inverted, .header__burger-menu--inverted {
 	filter: invert();
 }
