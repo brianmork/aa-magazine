@@ -1,10 +1,12 @@
 export default function eventSection() {
-	const eventSection = document.querySelector('.event-section');
 	const eventsContainer = document.querySelector('.event-section__events');
+	const filterButtons = document.querySelectorAll('.event-section__filter-buttons');
 
 	/**
 	 * @todo if past todays date, remove from site
 	 */
+
+	
 	const events = [
 		{
 			category: 'lectures',
@@ -66,10 +68,41 @@ export default function eventSection() {
 			date: 'march 4 18:00-20:00',
 			title: 'Monumental love - Art historian Marit Paasche on Hannah Ryggen',
 		},
-	]
+	];
 
-	function createEvent() {
-		for (let index = 0; index < events.length; index++) {
+	window.onload = createEvents(events)
+
+	filterButtons.forEach((filterButton) => {
+		filterButton.addEventListener('click', handleFilterButtonClick)
+	});
+
+	function handleFilterButtonClick(event) {
+		filterEvents(event);
+	}
+
+	function filterEvents(event) {
+		if (event.target.id === 'lectures') {
+			let filteredEvents = events.filter(function(events) {
+				return events.category == 'lectures';
+			});
+			createEvents(filteredEvents)
+		} else if (event.target.id === 'exhibitions') {
+			let filteredEvents = events.filter(function(events) {
+				return events.category == 'exhibitions';
+			});
+			createEvents(filteredEvents)
+		} else if (event.target.id === 'open-seminars') {
+			let filteredEvents = events.filter(function(events) {
+				return events.category == 'open seminars';
+			});
+			createEvents(filteredEvents)
+		}
+	}
+
+	function createEvents(array) {
+		eventsContainer.innerHTML = '';
+		for (let index = 0; index < array.length; index++) {
+			
 			const event = document.createElement('li');
 			event.classList.add('event-section__event');
 
@@ -80,22 +113,18 @@ export default function eventSection() {
 			const eventName = document.createElement('div');
 			
 			eventCategory.classList.add('event-section__filter','event-section__filter-lectures');
-			eventCategory.innerText = events[index].category;
+			eventCategory.innerText = array[index].category;
 
 			eventDate.classList.add('event-section__date');
-			eventDate.innerText = events[index].date;
+			eventDate.innerText = array[index].date;
 
 			eventName.classList.add('event-section__name');
-			eventName.innerText = events[index].title;
+			eventName.innerText = array[index].title;
 
 			
 			event.appendChild(eventCategory);
 			event.appendChild(eventDate);
 			event.appendChild(eventName);
-
-			console.log(events.category);
 		}
 	}
-	createEvent();
-
 }
