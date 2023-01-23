@@ -6,24 +6,41 @@
 		<title>Arc Architectural</title>
 
 		<link rel="stylesheet" href="./css/style.css">
+		<script type="module" src="/js/main.js"></script>
+
 	</head>
 	<body class="body__article">
 		<header class="header__section">
-			<img class="header__logo" src="./assets/logo/aa-logo-white.svg" alt="Arc architectural logo">
-	
-			<div class="header__flex-container">
-				<h1 class="header__heading">Arc Architectural</h1>
-				<div class="header__icons">
-					<button class="header__search-icon header__search-icon--inverted">
-						<img src="./assets/elements/aa-search icon.svg" alt="search icon">
-					</button>
-			
-					<button class="header__burger-menu header__burger-menu--inverted">
-						<img src="./assets/elements/aa-burger menu.svg" alt="hamburger menu">
-					</button>
+			<img class="header__logo" src="./assets/logo/aa-logo.svg" alt="Arc architectural logo">
+			<nav class="navigation navigation__mobile">
+				<div class="header__flex-container">
+					<h1 class="header__heading">Arc Architectural</h1>
+					<div class="header__icons">
+						<button class="header__search-icon">
+							<img src="./assets/elements/aa-search icon.svg" alt="search icon">
+						</button>
+            
+						<button class="header__burger-menu">
+							<img src="./assets/elements/aa-burger menu.svg" alt="Open Menu">
+						</button>
+						<button class="navigation__close-icon">
+							<img src="/assets/elements/aa-close_icon.svg" alt="Close Menu">
+						</button>	
+					</div>
 				</div>
-			</div>
+				<div class="navigation__menu-container">
+					<ul class="navigation__mobile-menu">
+						<li class="navigation__mobile-menu-item"><a href="./article.html">Announcements</a></li>
+						<li class="navigation__mobile-menu-item"><a href="./article.html">Journal</a></li>
+						<li class="navigation__mobile-menu-item"><a href="./article.html">Reviews</a></li>
+						<li class="navigation__mobile-menu-item"><a href="./article.html">Books</a></li>
+						<li class="navigation__mobile-menu-item"><a href="./information.html">Information</a></li>
+						<li class="navigation__mobile-menu-item"><a href="./article.html">Events</a></li>
+					</ul>
+				</div>
+			</nav>
 		</header>
+		
 		<aside>
 			<section class="event-section">
 				<div class="event-section__filter-buttons">
