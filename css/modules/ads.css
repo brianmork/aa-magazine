@@ -5,12 +5,12 @@
 	flex-direction: column;
 	justify-items: center;
 	align-items: center;
-	
+	gap: var(--gap-size);
+	margin: var(--gap-size) 0;
 }
 
 .ad__first-section{
 	display: flex;
-	margin: 0.1rem;
 	width: 100%;
 	background-color:var(--tertiary-color);
 	align-items: center;
@@ -24,7 +24,7 @@
 }
  @media screen and (min-width: 992px){
 	.ad {
-		gap: 0.1rem 0.2rem;
+		gap: var(--gap-size);
 		width: 100%;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
