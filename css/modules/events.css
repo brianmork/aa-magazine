@@ -29,7 +29,7 @@ aside {
 	color: var(--secondary-color);
 }
 
-.event-section__filter, .event-section__filter-buttons, .event-section__date {
+.event-section__filter, .event-section__filter-button, .event-section__date {
 	font-size: var(--small-font-size);
 	letter-spacing: var(--small-letter-spacing);
 	text-transform: uppercase;
@@ -37,7 +37,6 @@ aside {
 
 .event-section__name {
 	font-size: var(--body-font-size);
-	letter-spacing: var(--body-letter-spacing);
 }
 
 @media screen and (min-width: 992px) {
