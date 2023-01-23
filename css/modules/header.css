@@ -24,8 +24,22 @@
 	width: 100%;
 }
 
+
 @media screen and (min-width: 992px) {
 	.header__icons {
 		display: none;
 	}
+
+	.logo__hover--true {
+		display: none;
+	}
+
+	.header__logo:hover > .logo__hover--false {
+		display: none;
+	}
+
+	.header__logo:hover > .logo__hover--true {
+		display: block;
+	}
+
 }
