@@ -65,9 +65,12 @@ export default function eventSection() {
 
 	window.onload = createEvents(upcomingEvents)
 
-	filterButtons.forEach((filterButton) => {
-		filterButton.addEventListener('click', handleFilterButtonClick)
-	});
+	if (filterButtons !== null) {
+		filterButtons.forEach((filterButton) => {
+			filterButton.addEventListener('click', handleFilterButtonClick)
+		});
+	}
+
 
 	function handleFilterButtonClick(event) {
 		filterEvents(event);
