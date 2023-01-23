@@ -7,6 +7,15 @@
 	margin: 0.5rem;
 }
 
+.filter-button--article {
+	border: 0.5px solid var(--secondary-color);
+}
+
+.filter-button--article:hover {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+
 .article__container {
 	grid-column: 1/13;
 }
@@ -50,6 +59,8 @@
 .header__search-icon--inverted, .header__burger-menu--inverted {
 	filter: invert();
 }
+
+
 
 /* Grid fungerer ikke helt som den skal, kun med .article__container */
 @media screen and (min-width: 992px) {
