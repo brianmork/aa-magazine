@@ -45,12 +45,16 @@
 	margin-bottom: 2rem;
 }
 
+.article__paragraphs:last-of-type {
+	margin-bottom: 2rem;
+}
+
 .header__search-icon--inverted, .header__burger-menu--inverted {
 	filter: invert();
 }
 
 /* Fungerer ikke helt som den skal, kun med .article__container */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 	
 	.article__container,
 	.article__image--first {
@@ -67,7 +71,12 @@
 		grid-column: 5/8;
 	}
 
-
+	.article__about {
+		margin: 1rem auto;
+		border-top: 0.1rem;
+		border-bottom: 0.1rem;
+		border-color: var(--secondary-color);
+	}
 
 }
 
