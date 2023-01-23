@@ -24,6 +24,10 @@
 	width: 100%;
 }
 
+.logo__hover--true {
+	display: none;
+}
+
 
 @media screen and (min-width: 992px) {
 	.header__icons {
