@@ -11,74 +11,70 @@
 	</head>
 
 	<body>
-		<header class="header__section">
-			<a href="./index.html">
-				<div class="header__logo">
-					<img class="logo__hover--false" src="./assets/logo/aa-logo.svg" alt="Arc architectural logo">
+	<div class="container">
+		<div class="aside--desktop">
+			<header class="header__section">
+				<a href="./index.html">
+					<div class="header__logo">
+						<img class="logo__hover--false" src="./assets/logo/aa-logo.svg" alt="Arc architectural logo">
+	
+						<img class="logo__hover--true" src="./assets/logo/aa-logo hover.svg" alt="Arc architectural logo purple">
+					</div>
+				</a>
+				<nav class="navigation navigation__mobile">
+					<div class="header__flex-container">
+						<h1 class="header__heading">Arc Architectural</h1>
+						<div class="header__icons">
+							<button class="header__search-icon">
+								<img src="./assets/elements/aa-search icon.svg" alt="search icon">
+							</button>
+			
+							<button class="header__burger-menu">
+								<img src="./assets/elements/aa-burger menu.svg" alt="Open Menu">
+							</button>
 
-					<img class="logo__hover--true" src="./assets/logo/aa-logo hover.svg" alt="Arc architectural logo purple">
-				</div>
-			</a>
-			<nav class="navigation navigation__mobile">
-				<div class="header__flex-container">
-					<h1 class="header__heading">Arc Architectural</h1>
-					<div class="header__icons">
-						<button class="header__search-icon">
-							<img src="./assets/elements/aa-search icon.svg" alt="search icon">
-						</button>
-            
-						<button class="header__burger-menu">
-							<img src="./assets/elements/aa-burger menu.svg" alt="Open Menu">
+							<button class="navigation__close-icon">
+								<img src="./assets/elements/aa-close_icon.svg" alt="Close menu">
+							</button>
+						</div>
+					</div>
+					<div class="navigation__menu-container">
+						<ul class="navigation__mobile-menu">
+							<li class="navigation__mobile-menu-item"><a href="./article.html">Announcements</a></li>
+							<li class="navigation__mobile-menu-item"><a href="./article.html">Journal</a></li>
+							<li class="navigation__mobile-menu-item"><a href="./article.html">Reviews</a></li>
+							<li class="navigation__mobile-menu-item"><a href="./article.html">Books</a></li>
+							<li class="navigation__mobile-menu-item"><a href="./information.html">Information</a></li>
+							<li class="navigation__mobile-menu-item"><a href="./article.html">Events</a></li>
+						</ul>
+						<button class="navigation__close-icon">
+							<img src="/assets/elements/aa-close_icon.svg" alt="Close Menu">
 						</button>
 						<button class="navigation__close-icon">
 							<img src="/assets/elements/aa-close_icon.svg" alt="Close Menu">
 						</button>	
 					</div>
+				</nav>
+			</header>
+		
+			<aside>
+				<div class="article__about">AA was founded in 1847 with the aspiration of 
+					‘promoting and affording facilities for the study of architecture for the public benefit’. 
+					Likeness it them very firmament without created also bring a one Whose she'd in. 
+					Sea unto created every together together. For that wherein. Kind sea earth them 
+					was place. Sixth signs saying after replenish multiply. Female every unto beginning 
+					appear moving tree the bearing own.
 				</div>
-				<div class="navigation__menu-container">
-					<ul class="navigation__mobile-menu">
-						<li class="navigation__mobile-menu-item"><a href="./article.html">Announcements</a></li>
-						<li class="navigation__mobile-menu-item"><a href="./article.html">Journal</a></li>
-						<li class="navigation__mobile-menu-item"><a href="./article.html">Reviews</a></li>
-						<li class="navigation__mobile-menu-item"><a href="./article.html">Books</a></li>
-						<li class="navigation__mobile-menu-item"><a href="./information.html">Information</a></li>
-						<li class="navigation__mobile-menu-item"><a href="./article.html">Events</a></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-
-		<aside>
-			<section class="event-section">
-				<div class="event-section__filter-buttons">
-					<button class="event-section__filter-button lectures">LECTURES</button>
-					<button class="event-section__filter-button exhibitions">EXHIBITIONS</button>
-					<button class="event-section__filter-button open-seminars">OPEN SEMINARS</button>
-				</div>
-				<ul>
-					<li class="event-section__event">
-						<div class="event-section__filter event-section__filter-lectures">Lectures</div>
-						<div class="event-section__date">January 20 12:00-14:00</div>
-						<div class="event-section__name">Conversations: Sami Sami sacred mountains and sacrificial stones</div>
-					</li>
-					<li class="event-section__event">
-						<div class="event-section__filter event-section__filter-exhibitions">Exhibitions</div>
-						<div class="event-section__date">February 5 16:00-17:00</div>
-						<div class="event-section__name">Free guided tour in Kunna Guanna Concha</div>
-					</li>
-					<li class="event-section__event">
-						<div class="event-section__filter event-section__filter-exhibitions">Exhibitions</div>
-						<div class="event-section__date">February 12 18:00</div>
-						<div class="event-section__name">Exhibition opening: Metahaven and Susanne M.Winterling</div>
-					</li>
-					<li class="event-section__event">
-						<div class="event-section__filter event-section__filter-seminars">Open Seminars</div>
-						<div class="event-section__date">March 4 82:00-20:00</div>
-						<div class="event-section__name">Monumental love - Art historian Mari Paasche on Hannah Ryggen</div>
-					</li>
-				</ul>
-			</section>
-		</aside>
+				<section class="event-section">
+					<div class="event-section__filter-buttons">
+						<button class="event-section__filter-button lectures" id="lectures">LECTURES</button>
+						<button class="event-section__filter-button exhibitions" id="exhibitions">EXHIBITIONS</button>
+						<button class="event-section__filter-button open-seminars" id="open-seminars">OPEN SEMINARS</button>
+					</div>
+					<ul class="event-section__events"></ul>
+				</section>
+			</aside>
+		</div>
 
 		<main>
 			<div class="information__container">
