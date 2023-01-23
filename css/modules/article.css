@@ -25,6 +25,9 @@
 	margin-top: 2rem;
 }
 
+.article__image {
+	margin: 2rem auto;
+}
 
 .article__figcaption {
 	font-size: var(--small-font-size);
