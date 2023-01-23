@@ -2,6 +2,11 @@ main, header {
 	grid-column: 1/13;
 }
 
+.grid {
+	display: grid;
+	gap: var(--gap-size);
+}
+
 @media screen and (min-width: 992px) {
 	
 }
