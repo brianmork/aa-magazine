@@ -6,6 +6,10 @@
 	background-color: var(--secondary-color);
 	padding-right: 1em;
 }
+.navigation__mobile-color {
+	background-color: var(--primary-color);
+}
+
 
 .navigation__menu-container {
 	position: relative;
@@ -18,7 +22,7 @@
 	padding-top: 2em;
 	width: 100vw;
 	z-index: 5;
-	background-color: var(--secondary-color);
+	background-color: var(--primary-color);
 	height: 100vh;
 
 }
@@ -30,7 +34,7 @@
 
 .navigation__mobile-menu-item a {
 	text-decoration: none;
-	color: var(--primary-color);
+	color: var(--secondary-color);
 	font-family: var(--large-font-family);
 	font-size: var(--large-font-size);
 }
@@ -38,4 +42,5 @@
 .navigation__close-icon {
 	display: none;
 	margin-right: 0.6em;
+	
 }
