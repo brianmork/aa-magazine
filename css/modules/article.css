@@ -51,7 +51,7 @@
 
 /* Grid fungerer ikke helt som den skal, kun med .article__container */
 @media screen and (min-width: 992px) {
-	
+
 	.article__container,
 	.article__image--first {
 		grid-column: 4/13;
