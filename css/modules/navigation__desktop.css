@@ -1,0 +1,9 @@
+.navigation__desktop-menu {
+	font-size: var(--large-font-size);
+	text-align: left;
+}
+
+.navigation__desktop-menu a {
+	text-decoration: none;
+	color: inherit;
+}
