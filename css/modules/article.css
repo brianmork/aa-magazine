@@ -21,6 +21,7 @@
 .article__h3 {
 	font-size: var(--body-font-size);
 	font-family: var(--primary-font-family);
+	font-weight: 400;
 	margin-top: 2rem;
 }
 
