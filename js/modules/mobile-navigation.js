@@ -6,8 +6,13 @@ export default function mobileNavigation() {
 	const hamburgerIcon = document.querySelector('.header__burger-menu');
 	const closeIcon = document.querySelector('.navigation__close-icon');
 
-	hamburgerIcon.addEventListener('click', handleHamburgerIconClick);
-	closeIcon.addEventListener('click', handleCloseIconClick);
+	if(hamburgerIcon !== null) {
+		hamburgerIcon.addEventListener('click', handleHamburgerIconClick);
+	};
+
+	if(closeIcon !== null) {
+		closeIcon.addEventListener('click', handleCloseIconClick);
+	}
 
 	function handleHamburgerIconClick() {
 		toggleMenu();
