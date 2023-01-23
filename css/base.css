@@ -2,6 +2,10 @@ html {
 	font-size: 20px;
 }
 
+body {
+	margin: 0.5rem; 
+}
+
 p:not(:first-of-type) {
 	text-indent: 3rem;
 }

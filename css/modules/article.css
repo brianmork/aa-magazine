@@ -21,6 +21,7 @@
 .article__h3 {
 	font-size: var(--body-font-size);
 	font-family: var(--primary-font-family);
+	font-weight: 400;
 	margin-top: 2rem;
 }
 
@@ -50,9 +51,9 @@
 	filter: invert();
 }
 
-/* Fungerer ikke helt som den skal, kun med .article__container */
-@media screen and (min-width: 768px) {
-	
+/* Grid fungerer ikke helt som den skal, kun med .article__container */
+@media screen and (min-width: 992px) {
+
 	.article__container,
 	.article__image--first {
 		grid-column: 4/13;
@@ -68,7 +69,12 @@
 		grid-column: 5/8;
 	}
 
-
+	.article__about {
+		margin: 1rem auto;
+		padding: 1rem 0;
+		border-top: 0.01rem solid;
+		border-bottom: 0.01rem solid;
+	}
 
 }
 
