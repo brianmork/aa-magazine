@@ -6,6 +6,9 @@
 	background-color: var(--secondary-color);
 	padding-right: 1em;
 }
+.navigation__mobile-color{
+	background-color: var(--primary-color);
+}
 
 .navigation__menu-container {
 	position: relative;
@@ -22,6 +25,9 @@
 	height: 100vh;
 
 }
+.navigation__mobile-munu-black{
+	background-color: var(--primary-color);
+}
 
 .navigation__mobile-menu-item {
 	list-style: none;
@@ -33,6 +39,9 @@
 	color: var(--primary-color);
 	font-family: var(--large-font-family);
 	font-size: var(--large-font-size);
+}
+.navigation__mobil-menu-white a {
+	color: var(--secondary-color);
 }
 
 .navigation__close-icon {
