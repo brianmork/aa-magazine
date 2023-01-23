@@ -1,4 +1,6 @@
 export default function eventSection() {
+	const eventSection = document.querySelector('.event-section');
+	const eventsContainer = document.querySelector('.event-section__events');
 
 	/**
 	 * @todo if past todays date, remove from site
@@ -17,7 +19,7 @@ export default function eventSection() {
 		{
 			category: 'exhibitions',
 			date: 'feburary 12 18:00',
-			title: 'CExhibition opening: Metahaven and Susanne M.Winterling',
+			title: 'Exhibition opening: Metahaven and Susanne M.Winterling',
 		},
 		{
 			category: 'open seminars',
@@ -37,7 +39,7 @@ export default function eventSection() {
 		{
 			category: 'exhibitions',
 			date: 'feburary 12 18:00',
-			title: 'CExhibition opening: Metahaven and Susanne M.Winterling',
+			title: 'Exhibition opening: Metahaven and Susanne M.Winterling',
 		},
 		{
 			category: 'open seminars',
@@ -57,7 +59,7 @@ export default function eventSection() {
 		{
 			category: 'exhibitions',
 			date: 'feburary 12 18:00',
-			title: 'CExhibition opening: Metahaven and Susanne M.Winterling',
+			title: 'Exhibition opening: Metahaven and Susanne M.Winterling',
 		},
 		{
 			category: 'open seminars',
@@ -65,5 +67,35 @@ export default function eventSection() {
 			title: 'Monumental love - Art historian Marit Paasche on Hannah Ryggen',
 		},
 	]
+
+	function createEvent() {
+		for (let index = 0; index < events.length; index++) {
+			const event = document.createElement('li');
+			event.classList.add('event-section__event');
+
+			eventsContainer.appendChild(event);
+
+			const eventCategory = document.createElement('div');
+			const eventDate = document.createElement('div');
+			const eventName = document.createElement('div');
+			
+			eventCategory.classList.add('event-section__filter','event-section__filter-lectures');
+			eventCategory.innerText = events[index].category;
+
+			eventDate.classList.add('event-section__date');
+			eventDate.innerText = events[index].date;
+
+			eventName.classList.add('event-section__name');
+			eventName.innerText = events[index].title;
+
+			
+			event.appendChild(eventCategory);
+			event.appendChild(eventDate);
+			event.appendChild(eventName);
+
+			console.log(events.category);
+		}
+	}
+	createEvent();
 
 }
