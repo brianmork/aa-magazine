@@ -6,6 +6,7 @@
 @import './modules/header.css';
 @import './modules/grid.css';
 @import './modules/information.css';
+@import '/css/modules/navigation__desktop.css';
 @import './modules/ads.css';
 @import './modules/navigation__mobile.css';
 @import './modules/overlay__images.css';
