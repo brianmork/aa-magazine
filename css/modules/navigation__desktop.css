@@ -3,7 +3,7 @@
 	text-align: left;
 	padding-bottom: 1rem;
 	margin-bottom: 0.9rem;
-	border-bottom: 0.05rem solid;
+	border-bottom: 1px solid;
 }
 
 .navigation__desktop-menu a {
@@ -17,6 +17,6 @@
 }
 
 .navigation__desktop-menu li {
-	padding-bottom: 0.1rem;
+	padding-bottom: 0.5rem;
 }
 
