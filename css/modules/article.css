@@ -4,7 +4,7 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	gap: var(--gap-size);
-	margin: 0.5rem;
+	margin: var(--gap-size);
 }
 
 .filter-button--article {
@@ -40,7 +40,7 @@
 
 .article__figcaption {
 	font-size: var(--small-font-size);
-	margin-top: 0.5rem;
+	margin-top: var(--gap-size);
 }
 
 .article__paragraphs:not(:first-of-type) {
