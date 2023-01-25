@@ -1,8 +1,4 @@
 /* Styling mobile version */
-.information__container {
-	grid-column: 1/13;
-}
-
 .information__image {
 	width: 100%;
 }
@@ -29,6 +25,7 @@
 	font-family: var(--primar-font-family);
 	font-size: var(--body-font-size);
 	letter-spacing: var(--body-letter-spacing);
+	gap: 0;
 }
 
 .information__article-top {
