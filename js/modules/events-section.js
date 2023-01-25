@@ -2,6 +2,8 @@ export default function eventSection() {
 	const eventsContainer = document.querySelector('.event-section__events');
 	const filterButtons = document.querySelectorAll('.event-section__filter-buttons');
 	let today = new Date();
+	let currentFilter = null;
+
 
 	const events = [
 		{
@@ -73,21 +75,32 @@ export default function eventSection() {
 
 
 	function handleFilterButtonClick(event) {
-		filterEvents(event);
+		findFilter();
 	}
 
-	function filterEvents(event) {
-		if (event.target.id === 'lectures') {
+	function findFilter() {
+		const filterFromButton = event.target.id;
+		if (currentFilter === filterFromButton) {
+			currentFilter = null;
+			createEvents(events)
+		} else {
+			currentFilter = filterFromButton;
+			filterEvents(currentFilter)
+		}
+	}
+
+	function filterEvents(currentFilter) {
+		if (currentFilter === 'lectures') {
 			let filteredEvents = events.filter(function(events) {
 				return events.category == 'lectures';
 			});
 			createEvents(filteredEvents)
-		} else if (event.target.id === 'exhibitions') {
+		} else if (currentFilter === 'exhibitions') {
 			let filteredEvents = events.filter(function(events) {
 				return events.category == 'exhibitions';
 			});
 			createEvents(filteredEvents)
-		} else if (event.target.id === 'open-seminars') {
+		} else if (currentFilter === 'open-seminars') {
 			let filteredEvents = events.filter(function(events) {
 				return events.category == 'open seminars';
 			});
