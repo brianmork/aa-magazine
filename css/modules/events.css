@@ -6,15 +6,20 @@ aside {
 	width: 100%;
 }
 
+.event-section__header {
+	font-size: var(--body-font-size);
+	margin-bottom: 10px;
+	letter-spacing: var(--body-letter-spacing);
+}
+
 .event-section__event {
-	margin-bottom: 1.66rem;
-	/* line-height: var(--small-line-height); */
+	margin-bottom: 20px;
 }
 
 .event-section__filter-buttons {
 	display: flex;
 	gap: 0.2rem;	
-	margin-bottom: 1.66rem;
+	margin-bottom: 20px;
 }
 
 .event-section__filter-button {
@@ -37,6 +42,9 @@ aside {
 
 .event-section__name {
 	font-size: var(--body-font-size);
+	/* letter-spacing: var(--body-letter-spacing); */
+	font-family: var(--primary-font-family);
+
 }
 
 @media screen and (min-width: 992px) {
