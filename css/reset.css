@@ -20,4 +20,9 @@ img {
 
 li {
 	list-style: none;
+	font: inherit;
+}
+
+ul {
+	list-style: none;
 }

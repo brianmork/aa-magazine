@@ -1,0 +1,22 @@
+.navigation__desktop-menu {
+	font-size: var(--large-font-size);
+	text-align: left;
+	padding-bottom: 1rem;
+	margin-bottom: 0.9rem;
+	border-bottom: 1px solid;
+}
+
+.navigation__desktop-menu a {
+	text-decoration: none;
+	color: inherit;
+	transition: all 300ms ease-in-out;
+}
+
+.navigation__desktop-menu a:hover {
+	border-bottom: 0.05rem solid;
+}
+
+.navigation__desktop-menu li {
+	padding-bottom: 0.5rem;
+}
+
