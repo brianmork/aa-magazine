@@ -67,7 +67,7 @@
 	.article__about {
 		margin: 1rem auto;
 		padding: 1rem 0;
-		border-top: 0.01rem solid;
+		border-top: 1px solid;
 		border-bottom: 1px solid;
 	}
 
