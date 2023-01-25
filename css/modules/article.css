@@ -59,9 +59,6 @@
 	filter: invert();
 }
 
-
-
-/* Grid fungerer ikke helt som den skal, kun med .article__container */
 @media screen and (min-width: 992px) {
 
 	.article__about {
@@ -69,6 +66,10 @@
 		padding: 1rem 0;
 		border-top: 1px solid;
 		border-bottom: 1px solid;
+	}
+
+	.article__container {
+		gap: 0;
 	}
 
 
