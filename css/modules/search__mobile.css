@@ -1,0 +1,12 @@
+.search__icon-input {
+	display: none;
+	/* position: absolute; */
+	
+
+}
+
+
+/* Class toggled with Javascript */
+.search__input--visible {
+	display: block;
+}
