@@ -5,6 +5,7 @@
 .header__flex-container {
 	display: flex;
 	justify-content: space-between;
+	margin: 1rem 0;
 }
 
 .header__heading {
