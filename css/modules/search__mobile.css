@@ -4,8 +4,9 @@
 }
 
 .search__icon-content {
-	width: 7rem;
+	width: 25vw;
 	transform: scaleX(0);
+	font-family: var(--large-font-family);
 	border-bottom: solid var(--search-line) 3px;
 	transform-origin: bottom right;
 	transition: transform 0.5s ease;
