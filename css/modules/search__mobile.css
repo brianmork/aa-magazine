@@ -4,13 +4,15 @@
 }
 
 .search__icon-content {
-	border: none;
-	outline: none;
-	font-family: inherit;
-	font-size: inherit;
 	width: 7rem;
 	transform: scaleX(0);
-	border-bottom: solid rgb(0, 0, 0) 3px;
+	border-bottom: solid var(--search-line) 3px;
 	transform-origin: bottom right;
 	transition: transform 0.5s ease;
+}
+
+.dark-mode {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	border-bottom: solid #fff 3px;
 }
