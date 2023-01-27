@@ -1,0 +1,16 @@
+Minimum viable product
+Create a static web and mobile version of the page including all of the most essential items such as index, journal and information. On these pages we’ll make sure that it includes the sidebar and pictures/information as seen in the prototype. JavaScript functionality such as the subscription bar and filter for events will be implemented later on.
+
+Sprint 1:
+Goal for this week is to complete the mobile version of the page. It should include all the necessities discussed in the MVP.
+
+Sprint 1 retrospective:
+Group is satisfied with the week and its progress. We have done more than what we agreed on at the sprint planning by completing the mobile version and starting on the desktop version. 
+
+Group is happy with the communication in the team and assigned tasks, everyone feels like they haven’t done much, but that is the purpose in this scrum as everyone receives smaller tasks.
+
+Sprint 2:
+Goal of the week is to complete the desktop version of the webpage and therefore complete the project according to the prototype. Beating the MVP. 
+
+Sprint 2 retrospective: 
+TBC...
