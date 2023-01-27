@@ -26,3 +26,9 @@ li {
 ul {
 	list-style: none;
 }
+
+input {
+	font: inherit;
+	border: none;
+	outline: none;
+}

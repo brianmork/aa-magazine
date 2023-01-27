@@ -31,4 +31,11 @@
 	/* gap variables*/
 	--gap-size: 0.5rem;
 
+
+	/* Search line color: */
+	--search-line: #000;
+}
+
+html.dark-mode {
+	--search-line: #fff;
 }
