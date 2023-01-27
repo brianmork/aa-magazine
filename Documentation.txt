@@ -13,4 +13,6 @@ Sprint 2:
 Goal of the week is to complete the desktop version of the webpage and therefore complete the project according to the prototype. Beating the MVP. 
 
 Sprint 2 retrospective: 
-TBC...
+We've achieved all our goals. The complete project has passed our MVP for what we wanted to implement. The group has not met on any big issues and our communication internally has been very good. Everyone is satisfied with the passed sprint, even though it's been frustrating dealing with small bugs all the time - but it made us communicate even better.
+
+#BestTeam
