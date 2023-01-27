@@ -1,14 +1,16 @@
 export default function searchMobile() {
 	let searchVisible = false;
 
-	const searchIconInput = document.querySelector('.search__icon-input');
+
+	const searchContent = document.querySelector(".search__icon-content");
+
 	const searchIcon = document.querySelector('.header__search-icon');
 
 	if(searchIcon !== null) {
-		searchIcon.addEventListener('click', handleSearchIconClick);
+		searchIcon.addEventListener('click', handleSearchContentClick)
 	}
 
-	function handleSearchIconClick(event) {
+	function handleSearchContentClick(event) {
 		toggleSearchInput();
 		renderHTML();
 	}
@@ -18,10 +20,14 @@ export default function searchMobile() {
 	}
 
 	function renderHTML() {
+		searchContent.value = '';
+
 		if (searchVisible === true) {
-			searchIconInput.classList.add('search__input--visible')
+			searchContent.style.transform = 'scaleX(1)';
 		} else {
-			searchIconInput.classList.remove('search__input--visible');
+			searchContent.style.transform = 'scaleX(0)';
 		}
+	
 	}
+
 }
