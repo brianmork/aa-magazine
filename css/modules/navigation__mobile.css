@@ -6,8 +6,13 @@
 	background-color: var(--secondary-color);
 	padding-right: 1em;
 }
+
 .navigation__mobile-color{
 	background-color: var(--primary-color);
+}
+
+.navbar-offset-margin {
+	padding-top: 82px;
 }
 
 .navigation__menu-container {
