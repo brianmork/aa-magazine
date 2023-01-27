@@ -34,6 +34,11 @@ aside {
 	color: var(--secondary-color);
 }
 
+.event-section__filter-button--clicked-article {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+
 .event-section__filter-button--clicked {
 	background-color: var(--primary-color);
 	color: var(--secondary-color);

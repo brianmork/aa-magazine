@@ -1,9 +1,10 @@
 export default function eventSection() {
 	const eventsContainer = document.querySelector('.event-section__events');
-	const filterButtons = document.querySelectorAll('.event-section__filter-buttons');
+	const filterButtons = document.querySelectorAll('.event-section__filter-button');
+	const articlePage = document.querySelector('.article__container');
+
 	let today = new Date();
 	let currentFilter = null;
-
 
 	const events = [
 		{
@@ -54,8 +55,6 @@ export default function eventSection() {
 			formattedDate: 'march 4 18:00-20:00',
 			title: 'Monumental love - Art historian Marit Paasche on Hannah Ryggen',
 		},
-
-
 	];
 
 	/**
@@ -69,16 +68,46 @@ export default function eventSection() {
 
 	if (filterButtons !== null) {
 		filterButtons.forEach((filterButton) => {
-			filterButton.addEventListener('click', handleFilterButtonClick)
+			filterButton.addEventListener('click', handleFilterButtonClick);
 		});
 	}
 
 
 	function handleFilterButtonClick(event) {
-		findFilter();
+		findFilter(event);
+		buttonStyle(event);
 	}
 
-	function findFilter() {
+
+	function buttonStyle(event) {
+		if (event.target.id === 'lectures' && !articlePage) {
+			filterButtons[0].classList.toggle('event-section__filter-button--clicked');
+			filterButtons[1].classList.remove('event-section__filter-button--clicked');
+			filterButtons[2].classList.remove('event-section__filter-button--clicked');
+		} else if (event.target.id === 'exhibitions' && !articlePage) {
+			filterButtons[1].classList.toggle('event-section__filter-button--clicked');
+			filterButtons[0].classList.remove('event-section__filter-button--clicked');
+			filterButtons[2].classList.remove('event-section__filter-button--clicked');
+		} else if (event.target.id === 'open-seminars' && !articlePage) {
+			filterButtons[2].classList.toggle('event-section__filter-button--clicked');
+			filterButtons[0].classList.remove('event-section__filter-button--clicked');
+			filterButtons[1].classList.remove('event-section__filter-button--clicked');
+		} else if (event.target.id === 'lectures' && articlePage) {
+			filterButtons[0].classList.toggle('event-section__filter-button--clicked-article');
+			filterButtons[1].classList.remove('event-section__filter-button--clicked-article');
+			filterButtons[2].classList.remove('event-section__filter-button--clicked-article');
+		} else if (event.target.id === 'exhibitions' && articlePage) {
+			filterButtons[1].classList.toggle('event-section__filter-button--clicked-article');
+			filterButtons[0].classList.remove('event-section__filter-button--clicked-article');
+			filterButtons[2].classList.remove('event-section__filter-button--clicked-article');
+		} else if (event.target.id === 'open-seminars' && articlePage) {
+			filterButtons[2].classList.toggle('event-section__filter-button--clicked-article');
+			filterButtons[0].classList.remove('event-section__filter-button--clicked-article');
+			filterButtons[1].classList.remove('event-section__filter-button--clicked-article');
+		}
+	}
+
+	function findFilter(event) {
 		const filterFromButton = event.target.id;
 		if (currentFilter === filterFromButton) {
 			currentFilter = null;
