@@ -5,6 +5,7 @@
 	--large-font-size: 2rem;
 	--large-font-weight: 700;
 	--large-line-height: 2.4rem;
+	--view-width-font-large: 2.8vw;
 
 	/* Body font styling */
 	--primary-font-family: 'Times New Roman', Times, serif;
@@ -34,8 +35,4 @@
 
 	/* Search line color: */
 	--search-line: #000;
-}
-
-html.dark-mode {
-	--search-line: #fff;
 }

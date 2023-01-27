@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1382px) {
 	.subscribe-banner {
-		font-size: 2.8vw;
+		font-size: var(--view-width-font-large);
 	}
 }
 
