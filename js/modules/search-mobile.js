@@ -20,6 +20,8 @@ export default function searchMobile() {
 	}
 
 	function renderHTML() {
+		searchContent.value = '';
+
 		if (searchVisible === true) {
 			searchContent.style.transform = 'scaleX(1)';
 		} else {
