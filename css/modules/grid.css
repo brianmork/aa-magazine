@@ -7,15 +7,6 @@ main, header {
 	gap: var(--gap-size);
 }
 
-@media screen and (min-width: 992px) {
-	
-}
-.container {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	gap: var(--gap-size);
-}
-
 .aside--desktop {
 	grid-column: 1/13;
 }
@@ -33,12 +24,6 @@ main, header {
 	.aside--desktop {
 			grid-column: 1/4;
 		}
-
-	/* .articles {
-		display: grid;
-		grid-template-columns: repeat(9, 1fr);
-		gap: var(--gap-size);
-		} */
 
 	.grid {
 		display: grid;
