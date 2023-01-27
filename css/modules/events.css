@@ -34,6 +34,11 @@ aside {
 	color: var(--secondary-color);
 }
 
+.event-section__filter-button--clicked {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+
 .event-section__filter, .event-section__filter-button, .event-section__date {
 	font-size: var(--small-font-size);
 	letter-spacing: var(--small-letter-spacing);

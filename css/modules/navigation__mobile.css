@@ -16,13 +16,12 @@
 }
 
 .navigation__mobile-menu {
-	position: absolute;
 	top: 0;
+	padding-bottom: 2rem;
 	padding-top: 2em;
 	width: 100vw;
 	z-index: 5;
 	background-color: var(--secondary-color);
-	height: 100vh;
 
 }
 .navigation__mobile-munu-black{
@@ -46,5 +45,5 @@
 
 .navigation__close-icon {
 	display: none;
-	margin-right: 0.6em;
+	margin-right: 0.5em;
 }

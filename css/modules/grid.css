@@ -57,8 +57,16 @@ main, header {
 		grid-template-columns: repeat(7, 1fr);
 	}
 
+	.grid__template-column--8 {
+		grid-template-columns: repeat(8, 1fr);
+	}
+
 	.grid__template-column--9 {
 		grid-template-columns: repeat(9, 1fr);
+	}
+
+	.grid__template-column--12 {
+		grid-template-columns: repeat(12, 1fr);
 	}
 
 	.grid__column-start--1 {
