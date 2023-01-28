@@ -1,5 +1,4 @@
 :root {
-
 	/* Header font styling */
 	--large-font-family: neue-haas-grotesk-text, sans-serif;
 	--large-font-size: 2rem;
@@ -21,17 +20,14 @@
 	--small-line-height: 1.66rem;
 	--small-letter-spacing: 0.05rem;
 
-
 	/* Color variables */
 	--primary-color: #000;
 	--secondary-color: #fff;
 	--tertiary-color: #9747FF;
 	--subscribe-color: #E7E7E7;
-	
-	
+		
 	/* gap variables*/
 	--gap-size: 0.5rem;
-
 
 	/* Search line color: */
 	--search-line: #000;

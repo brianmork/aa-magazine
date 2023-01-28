@@ -52,7 +52,6 @@ aside {
 
 .event-section__name {
 	font-size: var(--body-font-size);
-	/* letter-spacing: var(--body-letter-spacing); */
 	font-family: var(--primary-font-family);
 
 }
