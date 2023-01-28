@@ -7,10 +7,7 @@ export default function subscribeButton() {
 		subscribeButton.addEventListener('click', removeSubscribeBanner);
 	}
 
-
    function removeSubscribeBanner(event) {
 		subscribeBanner.style.display = 'none';
 	}
-
-
 }

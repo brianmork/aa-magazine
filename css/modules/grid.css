@@ -104,7 +104,6 @@ main, header {
 		grid-column-start: 12;
 	}
 
-
 	.grid__column-end--1 {
 		grid-column-end: span 1;
 	}
